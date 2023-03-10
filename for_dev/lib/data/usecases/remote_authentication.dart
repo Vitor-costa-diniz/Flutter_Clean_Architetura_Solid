@@ -1,4 +1,3 @@
-import 'package:for_dev/domain/entities/account_entity.dart';
 import 'package:meta/meta.dart';
 
 import '../../domain/usescases/authentication.dart';
