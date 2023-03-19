@@ -7,7 +7,7 @@ import '../../domain/usescases/authentication.dart';
 import '../http/http.dart';
 import '../models/model.dart';
 
-class RemoteAuthentication {
+class RemoteAuthentication implements Authentication {
   final HttpClient httpClient;
   final String url;
 
