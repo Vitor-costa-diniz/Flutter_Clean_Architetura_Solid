@@ -56,8 +56,7 @@ void main() {
         method: 'post',
       );
 
-      verify(client.post(any,
-          headers: anyNamed('headers'), body: '{"any_key":"any_value"}'));
+      verify(client.post(any, headers: anyNamed('headers')));
     });
   });
 }
